@@ -9,7 +9,7 @@ module.exports = {
         })[0];
     },
 
-    list: (req, res) => {
-        return db;
+    list: () => {
+        return bd;
     }
 }
